@@ -28,8 +28,8 @@ const NavBar: React.FC = () => {
       title: "For Authors",
       subMenu: [
         { path: "/Guidelines for Viksit India-Revised.docx", title: "Paper Guidelines", isButton: true },
-        { path: "/SubmitManuscript", title: "Submit Manuscript" },
-        { path: "/ManuscriptDetails", title: "Previous Manuscript" },
+        { path: "/vbe.rase/SubmitManuscript", title: "Submit Manuscript" },
+        { path: "/vbe.rase/ManuscriptDetails", title: "Previous Manuscript" },
       ],
     },
     {
