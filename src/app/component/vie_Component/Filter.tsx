@@ -1,4 +1,3 @@
-// pages/index.tsx
 import React, { useState, useMemo } from 'react';
 import ArticleList from './ArticleList';
 
@@ -77,9 +76,10 @@ const Filter: React.FC = () => {
   const [selectedVolume, setSelectedVolume] = useState<string>(volumes[0]);
   const [selectedIssue, setSelectedIssue] = useState<string>('');
 
+  // Ensure we only filter articles if selectedIssue is not empty
   const filteredArticles = useMemo(() => {
-    if (selectedIssue === '') {
-      return [];
+    if (!selectedIssue) {
+      return allArticles.filter((article) => article.volume === selectedVolume);
     }
     return allArticles.filter(
       (article) => article.volume === selectedVolume && article.issue === selectedIssue
@@ -105,8 +105,7 @@ const Filter: React.FC = () => {
   const handleVolumeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedVolume = e.target.value;
     setSelectedVolume(selectedVolume);
-    // Reset selectedIssue when volume changes
-    setSelectedIssue('');
+    setSelectedIssue(''); // Reset selectedIssue when volume changes
   };
 
   const handleIssueChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -129,7 +128,7 @@ const Filter: React.FC = () => {
             className="border rounded p-2"
           >
             {volumes.map((volume) => (
-              <option key={volume} value={volume} className="m-4">
+              <option key={volume} value={volume}>
                 {volume}
               </option>
             ))}
@@ -138,7 +137,7 @@ const Filter: React.FC = () => {
 
         <div className="mb-4 text-black">
           <label htmlFor="issue" className="mr-2">
-            
+            Select Issue:
           </label>
           <select
             id="issue"
@@ -156,6 +155,7 @@ const Filter: React.FC = () => {
         </div>
       </div>
 
+      {/* Only render ArticleList if filteredArticles has content */}
       {filteredArticles.length > 0 && <ArticleList articles={filteredArticles} />}
     </div>
   );

@@ -110,10 +110,10 @@ const HomePage: React.FC = () => {
                   <option value="" disabled selected>
                     Search for books
                   </option>
-                  <option value="/Shiksha_Mahakumbh.pdf">Role of Academic Driven Startups in Economy</option>
-                  <option value="/Role of academic driven startups in economy.pdf">Role of Academic-Driven Startups in Developing Economy of Jammu & Kashmir</option>
-                  <option value="/SchoolEducation.pdf">Shiksha Mahakumbh</option>
-                  <option value="/Books">Recent Advances in School Education</option>
+                  <option value="/b/rase20231.pdf">Recent Advances in School Education</option>
+                  <option value="/b/rase20232.pdf">Role of Academic-Driven Startups in Developing Economy </option>
+                  <option value="/b/sm.pdf">Shiksha Mahakumbh</option>
+                  <option value="/Books">Role of Academic Driven Startups in Economy of Jammu & Kashmir</option>
                 </select>
                 <button className="w-full p-2 bg-orange-400 text-white rounded-lg shadow-md hover:bg-orange-600 mt-2" onClick={handleBookSearchClick}>
                   Search Books
