@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../../component/Component/Header';
-import CompanyInfo from '../../component/Component/CompanyInfo';
-import Navigation from '../../component/Component/Navigation';
-import AddArticle from '../../component/Component/AddArticle';
-import Footer from '../../component/Component/Footer';
+import Header from '../../component/vbe_Component/Header';
+import CompanyInfo from '../../component/vbe_Component/CompanyInfo';
+import Navigation from '../../component/vbe_Component/Navigation';
+import AddArticle from '../../component/vbe_Component/AddArticle';
+import Footer from '../../component/vbe_Component/Footer';
 
 const page = () => {
     return (

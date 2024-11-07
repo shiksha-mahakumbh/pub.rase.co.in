@@ -1,8 +1,8 @@
 'use client';
 import { useState, useEffect } from 'react';
-import Footer from '../../component/Component/Footer'
-import HomePage from '../../component/Component/HomePage'
-import Notification from '../../component/Component/Notification'
+import Footer from '../../component/vbe_Component/Footer'
+import HomePage from '../../component/vbe_Component/HomePage'
+import Notification from '../../component/vbe_Component/Notification'
 
 export default function Home() {
   return (

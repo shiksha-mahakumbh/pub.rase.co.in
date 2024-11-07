@@ -1,9 +1,9 @@
 
-import Header from '../../component/Component/Header';
-import CompanyInfo from '../../component/Component/CompanyInfo';
-import Navigation from '../../component/Component/Navigation';
-import Indexing from '../../component/Component/Indexing';
-import Footer from '../../component/Component/Footer';
+import Header from '../../component/vbe_Component/Header';
+import CompanyInfo from '../../component/vbe_Component/CompanyInfo';
+import Navigation from '../../component/vbe_Component/Navigation';
+import Indexing from '../../component/vbe_Component/Indexing';
+import Footer from '../../component/vbe_Component/Footer';
 function Issues() {
   return (
     <div className="bg-white">

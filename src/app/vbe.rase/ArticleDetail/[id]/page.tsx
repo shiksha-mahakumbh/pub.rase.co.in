@@ -2,10 +2,10 @@
 'use client'; // This indicates that this is a client-side component
 
 import React from 'react';
-import ArticleDetail from '../../../component/Component/ArticleDetail';
-import Footer from '../../../component/Component/Footer';
-import Header from '../../../component/Component/Header';
-import CompanyInfo from '../../../component/Component/CompanyInfo';
+import ArticleDetail from '../../../component/vbe_Component/ArticleDetail';
+import Footer from '../../../component/vbe_Component/Footer';
+import Header from '../../../component/vbe_Component/Header';
+import CompanyInfo from '../../../component/vbe_Component/CompanyInfo';
 import { useRouter } from 'next/navigation';
 
 

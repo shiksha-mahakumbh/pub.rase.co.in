@@ -1,5 +1,5 @@
 "use client";
-import Signup from "../../component/Component/Signup"
+import Signup from "../../component/vbe_Component/Signup"
 const page = () => {
   
     

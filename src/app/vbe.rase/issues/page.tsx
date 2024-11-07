@@ -1,10 +1,10 @@
 'use client'
 import React  from 'react'
 import {  useState} from "react";
-import CompanyInfo from '../../component/Component/CompanyInfo'
-import AlphabetList from '../../component/Component/AlphabetList'
-import ResearchArticleCard from '../../component/Component/ResearchArticleCard'
-import Footer from '../../component/Component/Footer';
+import CompanyInfo from '../../component/vbe_Component/CompanyInfo'
+import AlphabetList from '../../component/vbe_Component/AlphabetList'
+import ResearchArticleCard from '../../component/vbe_Component/ResearchArticleCard'
+import Footer from '../../component/vbe_Component/Footer';
 
 function Issues() {
     

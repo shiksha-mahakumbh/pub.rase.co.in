@@ -1,5 +1,5 @@
 "use client";
-import ForgotPassword from "../../component/Component/ForgotPassword"
+import ForgotPassword from "../../component/vbe_Component/ForgotPassword"
 const page = () => {
   
     

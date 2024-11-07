@@ -1,10 +1,10 @@
 'use client';
 
-import Footer from '../../component/Component/Footer';
-import Header from '../../component/Component/Header';
-import CompanyInfo from '../../component/Component/CompanyInfo';
-import Navigation from '../../component/Component/Navigation';
-import Editorial from '../../component/Component/Editorial';
+import Footer from '../../component/vbe_Component/Footer';
+import Header from '../../component/vbe_Component/Header';
+import CompanyInfo from '../../component/vbe_Component/CompanyInfo';
+import Navigation from '../../component/vbe_Component/Navigation';
+import Editorial from '../../component/vbe_Component/Editorial';
 
 function Issues() {
   return (

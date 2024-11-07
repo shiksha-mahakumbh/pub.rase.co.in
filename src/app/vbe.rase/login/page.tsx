@@ -1,6 +1,6 @@
 "use client";
 
-import Login from "../../component/Component/Login";
+import Login from "../../component/vbe_Component/Login";
 
 const Page = () => {
 

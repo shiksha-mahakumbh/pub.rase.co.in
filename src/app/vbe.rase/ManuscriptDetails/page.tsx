@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import ManuscriptDetailsComponent from '../../component/Component/ManuscriptDetails'; // Path to the ManuscriptDetails component
-import Login from '../../component/Component/Login'; // Path to the Login component
-import CompanyInfo from '../../component/Component/CompanyInfo'; // Path to the CompanyInfo component
-import Header from '../../component/Component/Header';
+import ManuscriptDetailsComponent from '../../component/vbe_Component/ManuscriptDetails'; // Path to the ManuscriptDetails component
+import Login from '../../component/vbe_Component/Login'; // Path to the Login component
+import CompanyInfo from '../../component/vbe_Component/CompanyInfo'; // Path to the CompanyInfo component
+import Header from '../../component/vbe_Component/Header';
 const ManuscriptDetailsPage: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);

@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Login from "../../component/Component/Login";
-import AuthorDetails from "../../component/Component/AuthorDetails";
-import ManuscriptAttachment from "../../component/Component/ManuscriptAttachment";
-import ArticleDetails from "../../component/Component/ArticleDetails";
-import ProgressBar from "../../component/Component/ProgressBar";
-import Footer from "../../component/Component/Footer";
-import Header from "../../component/Component/Header";
-import CompanyInfo from "../../component/Component/CompanyInfo";
+import Login from "../../component/vbe_Component/Login";
+import AuthorDetails from "../../component/vbe_Component/AuthorDetails";
+import ManuscriptAttachment from "../../component/vbe_Component/ManuscriptAttachment";
+import ArticleDetails from "../../component/vbe_Component/ArticleDetails";
+import ProgressBar from "../../component/vbe_Component/ProgressBar";
+import Footer from "../../component/vbe_Component/Footer";
+import Header from "../../component/vbe_Component/Header";
+import CompanyInfo from "../../component/vbe_Component/CompanyInfo";
 
 const ManuscriptSubmissionPage: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);

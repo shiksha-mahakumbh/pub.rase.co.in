@@ -1,11 +1,11 @@
 'use client';
 import React from 'react'
-import Footer from '../../component/Component/Footer';
-import Header from '../../component/Component/Header';
-import CompanyInfo from '../../component/Component/CompanyInfo';
-import Filter from '../../component/Component/Filter';
+import Footer from '../../component/vbe_Component/Footer';
+import Header from '../../component/vbe_Component/Header';
+import CompanyInfo from '../../component/vbe_Component/CompanyInfo';
+import Filter from '../../component/vbe_Component/Filter';
 
-import Paper4 from '../../component/Component/Paper4';
+import Paper4 from '../../component/vbe_Component/Paper4';
 const page = () => {
   
     

@@ -1,0 +1,119 @@
+{
+    "DOI":"This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/lic enses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+     "ArticleInfo": {
+       "Received": "December 19, 2023",
+       "Revised": "February 16, 2024",
+       "Published": "June 30, 2024",
+           "Editor": "Dr. Sameer Mahajan"
+    },
+    "ArticleDetails": {
+      "Title": "Reducing the wastage of the grains : enhancing grain preservation technique",
+      "Email": "mayankhrprasad@gmail.co m 8918039653",
+      "Authors": [
+        {
+          "Name": "Mayank Mani Prasad",
+          "Position": "Assistant Professor",
+          "Affiliation": "Dr. S.S. Bhatnagar University Institute of Chemical Engineering & Technology"
+          
+        }
+       
+     ],
+     "CoAuthors": [
+         {
+            "Name": "Dr. Sushil K Kansal",
+            "Position": "Assistant Professor",
+            "Affiliation": "Panjab University, Chandigarh – 160 014, India."
+            
+          },
+          {
+            "Name": "Dr. Sanjeev Gautam",
+            "Position": "Assistant Professor",
+            "Affiliation": "Panjab University, Chandigarh – 160 014, India."
+           
+          }
+      
+     ]
+   },
+  "Abstract": "A key component of food security is grain preservation, which guarantees year-round availability and access to food. Millions of people throughout the world rely heavily on grains like rice, wheat, maize, and sorghum as their main source of calories and minerals. To avoid deterioration and minimize loss, grain preservation is a complicated process that calls for meticulous attention to detail and effective management. Techniques for preserving grains include drying, cleaning, sorting, and storage. One of the most popular preservation techniques is drying, which entails bringing the grains' moisture content down to a safe level to avoid microbial development. Proper storage conditions such as temperature, moisture, and ventilation play a crucial role in preserving grains. During many phases of manufacturing, shipping, storage, and consumption, grain is wasted. Globally, up to one-third of all food produced for human consumption is lost or wasted, according to the Food and Agricultural Organization (FAO). Economic losses, food poverty, and environmental damage are brought on by the wasting of grains. Consequently, minimizing grain waste is essential to ensuring both sustainable development and food security. Grain wastage may be decreased by enhancing post-harvest handling procedures, putting in place efficient storage methods, and minimizing food losses during distribution and consumption. Implementing effective storage systems involves using appropriate storage containers, such as metal or plastic silos, to prevent moisture and pest damage. In conclusion, preserving grains and reducing the wastage of grains are essential for food security and sustainable development. By implementing appropriate preservation techniques and reducing wastage, we can ensure that food is available and accessible to all. The reduction of grain wastage requires a multi-faceted approach that involves improving post-harvest handling practices, implementing effective storage systems, and reducing food losses in distribution and consumption. By working together to address these issues, we can ensure that grains are preserved and utilized efficiently reducing food insecurity and promoting sustainable development."
+  ,
+  "Keywords" : "Food Grains, Quality Measures, Temperature Sensors, Humidity Sensor, Storage Methods.",
+  
+   "Heading": [
+     {
+       "Title": "Introduction",
+       "Content": "Because of a lack of suitable storage and processing facilities, a significant percentage of food grains are destroyed after harvest. Moreover, changes in the frequency and intensity of climatic events such as floods and droughts, temperature, and rainfall patterns) might have a considerable influence on agricultural productivity. According to FAO estimates, global yearly losses in stored crop amount to 10% of total stored grain. 25-40% of food grain losses in Sub-Saharan Africa occur during agricultural storage. In India, post-harvest losses ranged from 12 to 16 million metric tons of food grains each year, an amount that the World Bank estimates could feed one-third of the country's impoverished.In India, post-harvest losses are estimated to account for 9.5% of total pulse output. Storage accounts for the greatest percentage of post-harvest losses (7.5%). Pulses are the most vulnerable to insect damage (5%) among storage losses, followed by wheat (2.5%), paddy (2%), and maize (3.5%). This is usually the result of poor post-harvest management procedures and a poorly built storage structure.Storage accounts for the greatest percentage of post-harvest losses (7.5%). Pulses are the most vulnerable to insect damage (5%) among storage losses, followed by wheat (2.5%), paddy (2%), and maize (3.5%). This is usually the result of poor post-harvest management procedures and a poorly built storage structure. Little or large storehouses, indoor or outdoor, temporary or permanent, and private or community storage designs are all options. These buildings include open storage, semi-open storage, and closed storage. These old procedures have been employed for many years with little or no alteration and have been effective due to the unintentional application of scientific values.Food grain waste is a serious problem in India that must be addressed immediately. According to the United Nations Development Program and the Food and Agriculture Organization (FAO), up to 40% of India's food production is wasted. Food grain waste harms a country's economy in ways that most of us are unaware of. When food grains are squandered, water and labor that are utilized to cultivate the food grains are wasted. A lot of electricity is also squandered during the processing of cereal grains. It also contributes to deforestation. This study proposes a method and storage equipment with which we may not only conserve grains but also minimize waste and contribute to the nation's economy. The physical variables such as humidity (Moisture Content), temperature, and Infestation are taken into consideration to determine the quality of the food grains. Section II discusses the Purposes and reasons for grain waste. In part III, we reviewed the overview and literature review of various works done to control food grain waste, as well as some framework of equipment and some innovative solutions to eliminate this condition.",
+       "SubHeadings": []
+        
+     },
+     {
+        "Title":"2. History (Past Grain storage practices and methods)2.1.1 Solar Therapy & Open fireplace",
+        "Content":"Solarization is the technique of heating grain in the sun to kill insects. Farmers have done this for centuries. The solarization period varies according to the product, and the dried grains are eaten to assess whether they have dried sufficiently. Farmers dry stored grains by spreading the food grains on bare ground, and spread polythene or canvas, bamboo mat, roadsides, or rooftops to reduce moisture content and eliminate most infective agents. The majority of farmers in most rural agricultural areas kept food grains near the kitchen where the heat and smoke of burning firewood penetrated to keep insect pest infestation at bay. When huge quantities of grain must be kept, especially elevated barns are built; a slow-burning fire is set, and hot air is managed to keep grains dry.",
+        "SubHeadings": []
+    },
+    {
+        "Title":"2.1.2 Metal or plastic drums",
+        "Content":"In the absence of a new one, plastic or metal used for grain, vegetable, or palm oil storage and transportation allow hermetic storage of food grains after a complete cleaning. Grains required for storage are first sun-dried to reduce the moisture content to 12% or less, subsequently, the drums are filled with the grains (threshed or unthreshed) and sealed with the grease screw top for easy access later. One significant disadvantage of grain storage in a drum is that the drum must be sealed for it to be successful since the insect is prone to resuming physiological activity at the least entrance of oxygen when opened indiscriminately.",
+        "SubHeadings": []
+    },
+  {
+        "Title":"2.1.3 Silo",
+        "Content":"India set up its first metal silo in 1959 in Hapur, UP, but the concept only gained traction when FCI set up its first pilot project in 2006 on a PPP basis. However, India still suffers from a severe deficiency in terms of silo storage. Because of their extended lifespan and insect and pest resistance, silos are commonly used for storing threshed food grains and rice in most nations. There are several varieties of silos, including metal, mud, concrete, and plastic, yet none has shown to be superior as a building material to others. Storage period in silos ranges from 6 months to a few years, and storage capacity varies with silo size, ranging from 0.5 to several million metric tons.",
+        "SubHeadings": []
+  
+    },
+  {
+        "Title":"2.2 Major Causes for Wastage of Grains",
+        "Content":"In 2018-19, India reached record food grain and horticulture outputs of 281.37 and 314.67 million metric tons (MMT), respectively. The Food and Agricultural Organization of the United Nations (FAO) says that food loss and waste in India is over 40%, whereas the Food Corporation of India estimates it to be 15%. Every year, around 10% of the 1,000 million MT of wheat produced is wasted owing to faulty storage procedures. The majority of the wheat is stored in bags in warehouses, which results in numerous losses such as spillage, rat assaults, bird droppings, theft/pilferage, and so on.Metal silos have shown to be effective methods of reducing post-harvest grain losses in poor nations. Nevertheless, exorbitant procurement prices ranging from US$ 40 to 350 have been a major impediment to the implementation of silos in India. Bulk storage capacity in silos is now approximately 0.2 MMT and must be substantially increased. Farmers are frequently forced to sell extra product at throwaway rates due to a shortage of storage facilities. Fixing this can also assist to maintain a local buffer in crisis scenarios such as the Covid epidemic, where timely availability of food supplies across regions is critical.Food storage expenses have also been continuously growing as the company is forced to employ temporary storage facilities such as cover & plinth (CAP) or lease warehouses. Last year, it was projected that 8.79 million tons of wheat were housed in such temporary storage facilities in Punjab alone. Wheat and rice are currently priced at Rs 2,505.67 and Rs 3,601.91 per quintal, respectively. For example, FCI distributes rice and wheat to states under the NFSA at just Rs 3 and Rs 2 per kg, respectively.Between January 1 and May 1, 2021, the stock of rice and wheat that was not readily issuable, which comprised partially spoiled and damaged grain, surged from 7.2 lakh tons to 71.8 lakh tons in just four months. This is more grain than was provided by the PM Garib Kalyan Ann Yojana in April and May to address the livelihood and food insecurity issue caused by the Covid-19 blockade. But, over the previous three years, the Food Company has progressively collected more and more surplus inventories than it is required to hold in accordance with industry standards. As illustrated in Figure 7, the Food Corporation's surplus stockpiles have progressively expanded since October 2018, and by May 1, 2020, the government had 878 lakh tons of grain (including unmilled paddy), which was 668 lakh tons more than the stocking standards.",
+        "SubHeadings": []
+  
+    },
+  {
+        "Title":"2.2.1 Insect Infestation-",
+        "Content":"Insect pests are the most important biotic contributors, causing significant losses in grains (30%-40%). According to certain research in Ghana, maize losses owing to insect infestation might be up to 50% if all quantity losses, quality losses, and revenue loss due to early sale are included in. According to an economic model developed by Compton et al., each percent of pest infestation results in a 0.6%-1% decrease in maize value. Pantenius discovered that insects and pests were responsible for 80%-90% of grain storage losses during field investigations in Togo. Callosobruchus maculatus, a common pulse weevil, has been discovered to be responsible for up to 24% of stored pulse losses.More than 30% weight loss in maize has been seen at farm-level storage owing to these pests. Several research on maize losses in Ghana suggested a 5% to 10% decrease in market value owing to solely Sitophuilus spp. infection. These losses amounted to nearly 5% of the typical household income in that area. According to Abass et al. after six months of maize storage, LGB was responsible for more than half (56.7%) of the storage losses, followed by grain weevil and lower grain borer losses. R. Dominica caused around 25% losses in wheat held under laboratory settings for three months.",
+        "SubHeadings": []
+  
+    },{
+        "Title":"2.2.2 Moisture Content and Humidit",
+        "Content":"Excessive moisture content in grains can promote mold development and insect infestation, resulting in severe quantity and quality losses. The optimal moisture content for grain storage varies per crop but is typically between 10% and 14%. Temperature is another important component in grain storage since it influences the pace of mold growth, insect activity, and grain respiration. Most grains benefit from storage temperatures below 15°C since it slows respiration and increases shelf life. Warm temperatures (over 30°C) can, however, enhance insect activity as well as moisture levels owing to condensation. The combination of high moisture and high warmth can provide excellent circumstances for mold growth and mycotoxin formation, which can be dangerous to both people and animals.",
+        "SubHeadings": []
+  
+    },{
+        "Title":"3. Preservation of Grains- Optimum Conditions for Storage of Grains",
+        "Content":"To ensure proper grain preservation and maintain its quality, it is essential to create optimum storage conditions. The ideal temperature for storing grains in most homes is between 40-60°F. While this range may be impractical for year-round storage, it can be achieved during winter months. It is worth noting that freezing or sub-zero temperatures do not harm stored grains.On the other hand, storing grains at temperatures exceeding 60°F leads to a faster decline in seed viability, affecting their ability to germinate. However, the loss in food value is only slightly accelerated under higher temperatures.Moisture levels are another critical factor in grain preservation. Grains should be stored with a moisture content below 12% to prevent mold growth and chemical degradation. Moisture levels higher than this threshold encourage the development of molds and can lead to a deterioration in the quality of the grains.By paying attention to these optimum storage conditions, including temperature and moisture control, we can ensure that grains remain viable and retain their nutritional value for extended periods. Proper grain preservation is a crucial aspect of food security, allowing for year-round availability and accessibility of essential calories and minerals to support millions of people worldwide.",
+        "SubHeadings": []
+  
+    },{
+        "Title":"4. Proposed model-food storage management system 4.1 Vacuum Packing Machine",
+        "Content":"The vacuum packing machine offers various features that contribute to efficient grain preservation. One key feature is its variable size capability, allowing for the packaging of grains in different quantities and sizes. This flexibility enables customization based on specific storage needs. The machine also offers material selection options, ensuring compatibility with various packaging materials.It can accommodate different types of bags, including those made from recyclable materials, promoting sustainability and reducing environmental impact. Another advantage of the vacuum packing machine is its adaptability to different energy sources. It can be powered by solar energy, tractor power, or conventional energy, providing flexibility in diverse operational settings. The design of the sealing bag is an important aspect of the machine. It is carefully designed to provide an airtight seal, preventing the entry of air and moisture, which can compromise the quality and shelf life of the grains. Additionally, the vacuum packing machine is designed for ease of use and mobility. It is lightweight, making it easy to move, handle, carry, and store. Its compact size also saves space, making it suitable for various storage environments. The machine's longevity and the durability of the sealing bags are crucial considerations. A robust construction ensures a long operational life for the machine, while high-quality bags contribute to the extended preservation of the grains. Overall, the vacuum packing machine, with its variable size, material selection, energy source adaptability, sealing bag design, recyclable material options, portability, space-saving features, and extended grain life enhancement, plays a significant role in preserving grains effectively and efficiently.",
+        "SubHeadings": []
+  
+    },{
+        "Title":"4.2 Framework for Storage Vessels",
+        "Content":"By focusing on developing skills that are currently sought after, skill development initiatives can address the gap between available jobs and the skills possessed by job seekers. This reduces unemployment rates and enhances the likelihood of individuals finding suitable employment.",
+        "SubHeadings": []
+  
+    },{
+        "Title":"5. Economics Effects",
+        "Content":"Around one-third of all food produced for human consumption is lost or wasted globally, leading to economic losses, food poverty, and harm to the environment. To address this issue, it is crucial to enhance post-harvest handling procedures, storage methods, and minimize food losses during distribution and consumption. Effective storage systems, such as metal or plastic silos, can be utilized to prevent damage caused by moisture and pests. By implementing suitable preservation techniques and reducing wastage, we can ensure that food is accessible and available to everyone, promoting sustainable development. Consequently, a comprehensive approach is necessary to decrease grain wastage, which involves improving post-harvest handling practices, establishing efficient storage systems, and minimizing food losses during distribution and consumption.",
+        "SubHeadings": []
+  
+    }
+  
+   ],
+   "Conclusion":"Preserving grains and reducing the wastage of grains are essential for food security and sustainable development. By implementing appropriate preservation techniques and reducing wastage, we can ensure that food is available and accessible to all. The reduction of grain wastage requires a multi-faceted approach that involves improving post-harvest handling practices, implementing effective storage systems, and reducing food losses in distribution and consumption. By working together to address these issues, we can ensure that grains are preserved and utilized efficiently, reducing food insecurity and promoting sustainable development.",
+    "Recommendations":"To make change, establish the example:Establish support systems, including mentorship programs to encourage and facilitate the launch of agribusiness.Implement awareness campaigns to educate the agrarian youth about diverse opportunities available in the market for farmers.Initiate skill development programs focused on entrepreneurship and business management tailored for the agrarian community.",
+   "Refrences": [
+     { "text": "Kanwar P & Sharma N, An insight of indigenous crop storage practices for food security in Himachal Pradesh, In: Food and nutritional security, agrotechnology and socio-economic aspects, edited by Kanwar SS, Parveen K Sardana & Satyavir, (SAARM, India), ISBN: 81-87267-06-2, 2003, 175-179. ", "url": "https://www.researchgate.net/publication/228391180_Indigenous_grain_structures_and_methods_of_storage" },
+     { "text": "Factors for losses during different post-harvest steps of the grain... | Download Scientific Diagram", "url": "https://www.researchgate.net/publication/277014240" },
+     { "text": "Bennett M. K. (1941). Wheat studies of the Food Research Institute, vols 12 and 18. Stanford, CA: Stanford University.", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2935112/" },
+     { "text": "N.L. Naveena et al. (2015). Diversity and distribution of stored grain insects among the Soliga tribal settlements of Biligirirangana Hills, Karnataka, India. J. Stored Prod. Res.", "url": "https://www.researchgate.net/publication/275671507_Diversity_and_distribution_of_stored_grain_insects_among_the_Soliga_Tribal_settlements_of_Biligirirangana_Hills_Karnataka_India" },
+     { "text": "H. Arjjumend. Indigenous practices of post-harvest storage among tribal communities of Central India.", "url": "https://www.researchgate.net/publication/325252108_Indigenous_practices_of_post_harvest_storage_among_tribal_communities_of_central_India" },
+     { "text": "CPF, De Lima. (1982). Strengthening the Food Conservation and Crop Storage Section. Field Documents and Final Technical Report. Project PFL/SWA/002 FAO, Rome.", "url": "https://www.sciencedirect.com/science/article/pii/S0570178319300375" },
+     { "text": "Wu L, Hui Y & Li M. (2016). The Storage Grain and Environment Modeling Based on TS-PLS. International Journal of Smart Home, Vol.10, No.1, pp.23-30.", "url": "https://www.researchgate.net/publication/325735662_Food_grain_storage_management_system" },
+     { "text": "Kumar S, Hiremath V & Rakhee K. (2012). Smart sensor network system based on ZigBee technology to monitor grain depot. International Journal of Computer Applications, Vol.50, No.21, pp.32-36.", "url": "https://www.researchgate.net/publication/258652015_Smart_Sensor_Network_System_based_on_ZigBee_Technology_to_Monitor_Grain_Depot" },
+     { "text": "Luo H, Wang R, Dai Y & Shen J. (2014). Low-temperature grain storage with a solar-powered adsorption chiller: a case study. International Journal of Green Energy, Vol.11, No.1, pp.50-59.", "url": "https://www.researchgate.net/publication/346097242_Recent_advances_in_carbon_capture_storage_and_utilisation_technologies_a_review" },
+     { "text": "Parwez S. (2014). Food Supply Chain Management in Indian Agriculture: Issues, Opportunities and Further Research. African Journal of Business Management, Vol.6, No.14, pp.572-581.", "url": "https://www.researchgate.net/publication/305043482_Food_supply_chain_management_in_Indian_Agriculture_Issues" }
+     
+   ]
+  }
+  
