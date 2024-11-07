@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { IssuePage } from "./IssuePage";
 import { toast } from "react-hot-toast";
+import Filter from './Filter';
 
-// Define Article interface for type safety
 interface Article {
   title: string;
   author: string;
@@ -10,7 +11,7 @@ interface Article {
   publishDate: string;
   volume?: string;
   issue?: string;
-  readArticle?: string; // Assuming this is the key for the read article URL
+  readArticle?: string; // Assuming this is the key in JSON for the TSX route
 }
 
 interface ArticleListProps {
@@ -29,106 +30,75 @@ const ArticleList: React.FC<ArticleListProps> = ({ articles }) => {
   const [showDocumentViewer, setShowDocumentViewer] = useState(false);
   const [selectedArticleContent, setSelectedArticleContent] = useState("");
 
-  // Handle page click (for the IssuePage)
   const handlePage = (param1: string) => {
-    // Assuming IssuePage is a separate component
-    // IssuePage.staticVariable = param1;
+    IssuePage.staticVariable = param1;
     toast.success("Work In Progress");
   };
 
-  // Function to open the document viewer
   const openDocumentViewer = (content: string) => {
-    setSelectedArticleContent(content + ".pdf"); // Add .pdf to the content URL
+    setSelectedArticleContent(content + '.pdf');
     setShowDocumentViewer(true);
   };
 
   return (
     <div className="p-4">
-      {articles.length === 0 ? (
-        <p>No articles available.</p>
-      ) : (
-        articles.map((article, index) => (
-          <div key={index} className="bg-white p-4 rounded shadow-md mb-4 border-2 border-primary">
-            {article.title || article.author ? (
-              <>
-                <Link href="/" onClick={() => handlePage(article.page)}>
-                  <div className="mb-2">
-                    <h3 className="text-black font-semibold">{article.title}</h3>
-                    {article.author && (
-                      <p className="text-gray-600">Author: {article.author}</p>
-                    )}
-                  </div>
-                </Link>
-                <div className="flex flex-row space-x-1 w-full">
-                  <button className="text-black px-1 py-1 md:w-1/3 border-l-2 border-r-2 border-indigo-700">
-                    {article.publishDate}
-                  </button>
-                  <button
-                    className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-green-700 md:w-1/3 border-r-2 border-green-700"
-                    onClick={() => openDocumentViewer(article.page)}
-                    rel="noopener noreferrer"
-                  >
-                    View Document
-                  </button>
-                  <a
-                    className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-indigo-700 md:w-1/3 border-r-2 border-indigo-700 block mx-auto text-center"
-                    href={`${article.page}.pdf`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Download PDF
-                  </a>
-                  {article.readArticle && (
-                    <Link href={article.readArticle} legacyBehavior>
-                      <a className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-indigo-700 md:w-1/3 border-r-2 border-indigo-700 block mx-auto text-center">
-                        Read article
-                      </a>
-                    </Link>
+      {articles.map((article, index) => (
+        <div key={index} className="bg-white p-4 rounded shadow-md mb-4 border-2 border-primary">
+          {article.title || article.author ? (
+            <>
+              <Link href="/" onClick={() => handlePage(article.page)}>
+                <div className="mb-2">
+                  <h3 className="text-black font-semibold">{article.title}</h3>
+                  {article.author && (
+                    <p className="text-gray-600">Author: {article.author}</p>
                   )}
                 </div>
-              </>
-            ) : (
-              <p className="text-gray-600">
-                {article.volume} - {article.issue} To be uploaded soon
-              </p>
-            )}
-          </div>
-        ))
-      )}
+              </Link>
+              <div className="flex flex-row space-x-1 w-full">
+                <button className="text-black px-1 py-1 md:w-1/3 border-l-2 border-r-2 border-indigo-700">
+                  {article.publishDate}
+                </button>
+                <button
+                  className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-green-700 md:w-1/3 border-r-2 border-green-700"
+                  onClick={() => openDocumentViewer(article.page)}
+                  rel="noopener noreferrer"
+                >
+                  View Document
+                </button>
+                <a
+                  className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-indigo-700 md:w-1/3 border-r-2 border-indigo-700 block mx-auto text-center"
+                  href={`${article.page}.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download PDF
+                </a>
+                {article.readArticle && (
+                  <Link
+                    href={article.readArticle}
+                    legacyBehavior
+                  >
+                    <a
+                      className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-indigo-700 md:w-1/3 border-r-2 border-indigo-700 block mx-auto text-center"
+                    >
+                      Read article
+                    </a>
+                  </Link>
+                )}
+              </div>
+            </>
+          ) : (
+            <p className="text-gray-600">
+              {article.volume} - {article.issue} To be uploaded soon
+            </p>
+          )}
+        </div>
+      ))}
 
       {showDocumentViewer && (
-        <div
-          className="modal"
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            zIndex: 100,
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div
-            className="modal-content"
-            style={{
-              maxWidth: "90%",
-              width: "90%",
-              maxHeight: "90%",
-              backgroundColor: "#fff",
-              borderRadius: "10px",
-              padding: "22px",
-              overflow: "auto",
-            }}
-          >
-            <span
-              className="bg-primary rounded-sm p-2 justify-center text-white hover:cursor-pointer focus:outline-none focus:ring-10 focus:ring-inset"
-              onClick={() => setShowDocumentViewer(false)}
-              style={{ position: "relative", top: "-6px", right: "0px" }}
-            >
+        <div className="modal" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 100, backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div className="modal-content" style={{ maxWidth: '90%', width: '90%', maxHeight: '90%', backgroundColor: '#fff', borderRadius: '10px', padding: '22px', overflow: 'auto' }}>
+            <span className="bg-primary rounded-sm p-2 justify-center text-white hover:cursor-pointer focus:outline-none focus:ring-10 focus:ring-inset" onClick={() => setShowDocumentViewer(false)} style={{ position: 'relative', top:'-6px', right: '0px' }}>
               Close
             </span>
             <DocumentViewer content={selectedArticleContent} />
