@@ -88,9 +88,9 @@ const HomePage: React.FC = () => {
                     Search for journals
                   </option>
                   <option value="/vie">Viksit India English</option>
-                  <option value="https://vih.rase.co.in">Viksit India Hindi</option>
+                  <option value="/vih">Viksit India Hindi</option>
                   <option value="/vbe">Viksit Bharat English</option>
-                  <option value="https://vbh.rase.co.in">Viksit Bharat Hindi</option>
+                  <option value="/vbh">Viksit Bharat Hindi</option>
                 </select>
                 <button className="w-full p-2 bg-orange-400 text-white rounded-lg shadow-md hover:bg-orange-600 mt-2" onClick={handleArticleSearchClick}>
                   Search Journals
