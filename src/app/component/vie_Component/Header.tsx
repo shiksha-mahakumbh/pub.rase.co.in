@@ -29,7 +29,7 @@ const Header = () => {
 
       <div className="relative flex items-center">
         <Image
-          src="/vie.jpeg"
+          src="/vie/vie.jpeg"
           alt="Viksit India Logo"
           className="hidden md:block rounded-lg object-cover object-center"
           width={100}

@@ -28,8 +28,8 @@ const NavBar: React.FC = () => {
       title: "लेखकों के लिए",
       subMenu: [
         { path: "/Guidelines for Viksit India-Revised.docx", title: "पेपर गाइडलाइंस डाउनलोड करें", isButton: true },
-        { path: "/SubmitManuscript", title: "मैन्यूस्क्रिप्ट जमा करें" },
-        { path: "/ManuscriptDetails", title: "पिछला मैन्यूस्क्रिप्ट " }
+        { path: "/vih.rase/SubmitManuscript", title: "मैन्यूस्क्रिप्ट जमा करें" },
+        { path: "/vih.rase/ManuscriptDetails", title: "पिछला मैन्यूस्क्रिप्ट " }
       ],
     },
     {
@@ -71,12 +71,12 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <header className="pt-1 w-full">
-      <div className="w-full mx-auto flex flex-col lg:flex lg:flex-row items-center justify-between">
+    <header className="pt-1 w-full bg-orange-500 text-white">
+      <div className="w-full mx-auto flex flex-col lg:flex-row items-center justify-between">
         <nav className="w-full text-white text-xl">
           <div className="items-center px-4 md:flex md:px-0">
             <div className="flex items-center justify-between py-0 md:block">
-              <div className={`md:hidden order-1`}>
+              <div className="md:hidden order-1">
                 <button
                   className="text-black outline-none p-2 rounded-md focus:border-black focus:border"
                   onClick={() => setState(!state)}
@@ -115,8 +115,8 @@ const NavBar: React.FC = () => {
                 </button>
               </div>
               <Link href="/">
-                <h1 className="text-xl font-bold text-black cursor-pointer">
-                  {/* आपकी साइट का शीर्षक यहां */}
+                <h1 className="text-xl font-bold text-white cursor-pointer">
+                  {/* Your site title here */}
                 </h1>
               </Link>
             </div>
@@ -129,7 +129,7 @@ const NavBar: React.FC = () => {
                 {menus.map((item, idx) => (
                   <li
                     key={idx}
-                    className={`py-2 px-2 md:text-white text-white-100 cursor-pointer md:w-1/6 text-black md:bg-primary hover:text-primary md:hover:bg-orange-100 relative`}
+                    className={`py-2 px-2 cursor-pointer md:w-1/6 text-white hover:text-orange-300 relative`}
                     onClick={() => handleMenuClick(idx)}
                   >
                     {item.subMenu ? (
@@ -145,7 +145,7 @@ const NavBar: React.FC = () => {
                               {subItem.isButton ? (
                                 <a
                                   href={subItem.path}
-                                  className="block px-4 py-2 text-sm transition-all hover:text-primary hover:underline"
+                                  className="block px-4 py-2 text-sm transition-all hover:text-orange-500 hover:underline"
                                   download
                                 >
                                   <button className="text-sm">{subItem.title}</button>
@@ -153,7 +153,7 @@ const NavBar: React.FC = () => {
                               ) : (
                                 <Link
                                   href={subItem.path}
-                                  className="block px-4 py-2 text-sm transition-all hover:text-primary hover:underline"
+                                  className="block px-4 py-2 text-sm transition-all hover:text-orange-500 hover:underline"
                                 >
                                   {subItem.title}
                                 </Link>

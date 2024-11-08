@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white p-4 text-center">
+    <footer className="bg-orange-500 text-white p-4 text-center">
       <div className="container mx-auto">
         <p>
           &copy; 2024 डिपार्टमेंट ऑफ होलिस्टिक एजुकेशन। सर्वाधिकार सुरक्षित।
