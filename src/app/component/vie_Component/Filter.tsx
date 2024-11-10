@@ -20,7 +20,7 @@ const Filter: React.FC = () => {
       title: "Content",
       author: "",
       publishDate: "2024-06-30",
-      page: "ci1",
+      page: "/vie/ci1",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle: ""
@@ -29,7 +29,7 @@ const Filter: React.FC = () => {
       title: "Development of Biodegradable Molded Sheets of Deoiled Rice Bran (DRB) Through Extrusion Technique",
       author: "Tanuja Srivastava",
       publishDate: "2024-06-30",
-      page: "v1i1p1",
+      page: "/vie/v1i1p1",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle: ""
@@ -38,16 +38,16 @@ const Filter: React.FC = () => {
       title: "Role of Modern Technologies in Future Dimensions of Teaching",
       author: "Deepika Bahri",
       publishDate: "2024-06-30",
-      page: "v1i1p2",
+      page: "/vie/v1i1p2",
       volume: "Volume 1",
       issue: "Issue 1",
-      readArticle: "/ArticleDetail/2"
+      readArticle: "/vie.rase/ArticleDetail/2"
     },
     {
       title: "Use of Hindi and regional languages in technical education",
       author: "Dr. Seema Goyal",
       publishDate: "2024-06-30",
-      page: "v1i1p3",
+      page: "/vie/v1i1p3",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle: ""
@@ -56,7 +56,7 @@ const Filter: React.FC = () => {
       title: "A Conceptual Model: Happiness for Kids in Schools",
       author: "Mrs. Supriya",
       publishDate: "2024-06-30",
-      page: "v1i1p4",
+      page: "/vie/v1i1p4",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle: ""
@@ -65,7 +65,7 @@ const Filter: React.FC = () => {
       title: "Review of Hydro Electric Power Plant and its Classifications",
       author: "Amit Kansal",
       publishDate: "2024-06-30",
-      page: "v1i1p5",
+      page: "/vie/v1i1p5",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle: ""

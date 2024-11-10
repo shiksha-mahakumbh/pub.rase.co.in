@@ -13,7 +13,7 @@ const Filter: React.FC = () => {
         "विषय सूचि",
       author: "",
       publishDate: "2024-06-30",
-      page: "ci1",
+      page: "/vih/ci1",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle:""
@@ -23,46 +23,46 @@ const Filter: React.FC = () => {
       "बच्चों में स्टार्टअप संस्कृति विकसित करने में माता-पिता की भूमिका",
     author: "नरेश , कमल कुमार , अनिल कुमार , यशपाल सिंह बेरवाल ",
     publishDate: "2024-06-30",
-    page: "v1i1p1",
+    page: "/vih/v1i1p1",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper1"
+    readArticle:"/vih/Paper1"
   },
   {
     title: "अकादमिक स्टार्टअप इकोसिस्टम को बढ़ावा देने में राष्ट्रीय शिक्षा नीति 2020 की भूमिका",
     author: "कोमल रानी तेहलान, योगेश कुमार, रुशाली गुप्ता, और राजीव रत्न शाह  ",
     publishDate: "2023-06-30",
-    page: "v1i1p2",
+    page: "/vih/v1i1p2",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper2"
+    readArticle:"/vih/Paper2"
   },
   {
     title: "ग्रामीण क्षेत्र में ऊर्जा की मांग को पूरा करने के लिए एक स्थायी सौर ऊर्जा स्रोत",
     author: "प्रतिभा संधू, सथांस सुहाग",
     publishDate: "2024-06-30",
-    page: "v1i1p3",
+    page: "/vih/v1i1p3",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper3"
+    readArticle:"/vih/Paper3"
   },
   {
     title: "अकादमिक-संचालित स्टार्टअप विफलताओं और उनसे प्राप्त सबक का एक व्यापक अवलोकन और विश्लेषण",
     author: "प्रत्युष मिश्रा",
     publishDate: "2024-06-30",
-    page: "v1i1p4",
+    page: "/vih/v1i1p4",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper4"
+    readArticle:"/vih/Paper4"
   },
   {
     title: "महिला उद्यमियों के सामने आने वाली चुनौतियाँ और बाधाएँ: एक अनुभवजन्य जांच",
     author: "सुश्री चारू मणि,डॉ. सुनीता भरतवाल",
     publishDate: "2024-06-30",
-    page: "v1i1p5",
+    page: "/vih/v1i1p5",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper5"
+    readArticle:"/vih/Paper5"
   },
   // {
   //   title:

@@ -29,7 +29,7 @@ const Header = () => {
 
       <div className="relative flex items-center">
         <Image
-          src="/vie/vie.jpeg"
+          src="/vbh/vbh.png"
           alt="Viksit India Logo"
           className="hidden md:block rounded-lg object-cover object-center"
           width={100}
@@ -40,7 +40,7 @@ const Header = () => {
         <div className="ml-1 w-full bg-orange-500 text-white px-0 py-0 rounded-md" style={{ fontSize: "1.2rem", lineHeight: "0.5rem" }}>
           <Navigation
             imageUrl=""
-            title="Viksit India"
+            title="Viksit Bharat"
             description="This is a sample description."
           />
         </div>

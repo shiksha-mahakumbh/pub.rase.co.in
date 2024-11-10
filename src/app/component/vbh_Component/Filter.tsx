@@ -12,7 +12,7 @@ const Filter: React.FC = () => {
       title: "विषय सूचि",
       author: "",
       publishDate: "2024-06-30",
-      page: "ci1",
+      page: "/vbh/ci1",
       volume: "Volume 1",
       issue: "Issue 1",
       readArticle:""
@@ -21,46 +21,46 @@ const Filter: React.FC = () => {
       title: "भारतीय पारिस्थितिकी तंत्र: स्टार्ट अप के लिए सरकारी पहल और योजनाएं",
       author: "डॉ नमिता कोचर, डॉ. समीर वर्मा",
       publishDate: "2024-06-30",
-      page: "v1i1p1",
+      page: "/vbh/v1i1p1",
       volume: "Volume 1",
       issue: "Issue 1",
-      readArticle:"/Paper1",
+      readArticle:"/vbh/Paper1",
     },
   {
     title: "ब्लॉकचेन क्रांति: पारदर्शी नवाचार के माध्यम से उद्योगों में बदलाव",
     author: "रामभतेरी",
     publishDate: "2024-06-30",
-    page: "v1i1p2",
+    page: "/vbh/v1i1p2",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper2"
+    readArticle:"/vbh/Paper2"
   },
   {
     title: "शिक्षा में क्रांतिकारी बदलाव: आधुनिक शिक्षा में मशीन लर्निंग और आर्टिफिशियल इंटेलिजेंस युग का अध्ययन",
     author: "मोनिका, डॉ. सुनीता",
     publishDate: "2024-06-30",
-    page: "v1i1p3",
+    page: "/vbh/v1i1p3",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper3"
+    readArticle:"/vbh/Paper3"
   },
   {
     title: "प्रकृति की अपील: हर्बल कॉस्मेटिक उत्पादों के लिए उपभोक्ता खरीद इरादों की जांच",
     author: "डॉ. अदिति शर्मा, नीतू, तुलसी रानी",
     publishDate: "2024-06-30",
-    page: "v1i1p4",
+    page: "/vbh/v1i1p4",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper4"
+    readArticle:"/vbh/Paper4"
   },
   {
     title: "बिजनेस कम्युनिकेशन में सफल स्टार्टअप्स के अनुभवों से सीखी गई चुनौतियाँ और सबक",
     author: "अपर्णा",
     publishDate: "2024-06-30",
-    page: "v1i1p5",
+    page: "/vbh/v1i1p5",
     volume: "Volume 1",
     issue: "Issue 1",
-    readArticle:"/Paper5"
+    readArticle:"/vbh/Paper5"
   }
   
 ];
