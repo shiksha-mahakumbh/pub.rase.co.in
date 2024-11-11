@@ -123,7 +123,7 @@ const HomePage: React.FC = () => {
           </section>
 
           <section className="mt-8 mb-8">
-            <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">Explore STAM , Social Science, etc., in DHE Publications</h2>
+            <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">Explore STEM , Social Science, etc., in DHE Publications</h2>
             <ul className="mt-4 text-gray-600 flex flex-wrap justify-center space-x-6 space-y-0">
               <li className="hover:underline hover:text-orange-600 transition duration-300 cursor-pointer">Physical Sciences and Engineering</li>
               <li className="hover:underline hover:text-orange-600 transition duration-300 cursor-pointer">Life Sciences</li>
