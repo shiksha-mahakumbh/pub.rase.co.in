@@ -127,7 +127,7 @@ const Filter: React.FC = () => {
     readArticle:""
   },
   {
-    title: "Conent",
+    title: "Content",
     author: "",
     publishDate: "2023-12-31", // Please provide the actual publish date
     page: "/vie/cv1i3", // Please provide the actual page number
@@ -135,24 +135,7 @@ const Filter: React.FC = () => {
     issue: "Issue 4",
     readArticle:""
   },
-  {
-    title: "Moral Values and Ethics in School Education - A Practical Approach",
-    author: "Piyush Punj ",
-    publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p1", // Please provide the actual page number
-    volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },
-  {
-    title: "Health and Wellness Interlaced in The Bhagavad Gita",
-    author: "Ranjana",
-    publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p2", // Please provide the actual page number
-    volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },  {
+   {
     title: "Induction of Startup Culture on School Level ",
     author: "Divyanshu",
     publishDate: "2023-12-31", // Please provide the actual publish date
@@ -194,18 +177,10 @@ const Filter: React.FC = () => {
     issue: "Issue 4",
     readArticle:""
   },
-  {
-    title: "Augmenting Techno-Pedagogical Competencies of Pre-Service Trainees for Designing E-Content through Collaborative Training Model",
-    author: "Ms. Seema Rani Thappa    ",
-    publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p8W", // Please provide the actual page number
-    volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },
+ 
   
   {
-    title: "Conent",
+    title: "Content",
     author: "",
     publishDate: "2023-03-31", // Please provide the actual publish date
     page: "/vie/cv2i1", // Please provide the actual page number
