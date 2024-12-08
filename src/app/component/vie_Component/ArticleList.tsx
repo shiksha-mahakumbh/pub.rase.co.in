@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { IssuePage } from "./IssuePage";
 import { toast } from "react-hot-toast";
-import Filter from './Filter';
 
 interface Article {
   title: string;
@@ -11,17 +10,25 @@ interface Article {
   publishDate: string;
   volume?: string;
   issue?: string;
-  readArticle?: string; // Assuming this is the key in JSON for the TSX route
+  readArticle?: string;
 }
 
 interface ArticleListProps {
   articles: Article[];
 }
 
-const DocumentViewer: React.FC<{ content: string }> = ({ content }) => {
+const DocumentViewer: React.FC<{ content: string; onClose: () => void }> = ({ content, onClose }) => {
   return (
-    <div className="document-viewer">
-      <iframe src={content} width="100%" height="600px" title="Document Viewer"></iframe>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+      <div className="relative bg-white rounded shadow-lg w-11/12 max-w-4xl p-4">
+        <button
+          onClick={onClose}
+          className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full hover:bg-red-700 focus:outline-none"
+        >
+          ×
+        </button>
+        <iframe src={content} width="100%" height="600px" title="Document Viewer" className="rounded" />
+      </div>
     </div>
   );
 };
@@ -36,7 +43,7 @@ const ArticleList: React.FC<ArticleListProps> = ({ articles }) => {
   };
 
   const openDocumentViewer = (content: string) => {
-    setSelectedArticleContent(content + '.pdf');
+    setSelectedArticleContent(content + ".pdf");
     setShowDocumentViewer(true);
   };
 
@@ -74,10 +81,7 @@ const ArticleList: React.FC<ArticleListProps> = ({ articles }) => {
                   Download PDF
                 </a>
                 {article.readArticle && (
-                  <Link
-                    href={article.readArticle}
-                    legacyBehavior
-                  >
+                  <Link href={article.readArticle} legacyBehavior>
                     <a
                       className="text-black hover:text-white px-1 py-1 hover:rounded hover:bg-indigo-700 md:w-1/3 border-r-2 border-indigo-700 block mx-auto text-center"
                     >
@@ -96,14 +100,10 @@ const ArticleList: React.FC<ArticleListProps> = ({ articles }) => {
       ))}
 
       {showDocumentViewer && (
-        <div className="modal" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 100, backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <div className="modal-content" style={{ maxWidth: '90%', width: '90%', maxHeight: '90%', backgroundColor: '#fff', borderRadius: '10px', padding: '22px', overflow: 'auto' }}>
-            <span className="bg-primary rounded-sm p-2 justify-center text-white hover:cursor-pointer focus:outline-none focus:ring-10 focus:ring-inset" onClick={() => setShowDocumentViewer(false)} style={{ position: 'relative', top:'-6px', right: '0px' }}>
-              Close
-            </span>
-            <DocumentViewer content={selectedArticleContent} />
-          </div>
-        </div>
+        <DocumentViewer
+          content={selectedArticleContent}
+          onClose={() => setShowDocumentViewer(false)}
+        />
       )}
     </div>
   );
