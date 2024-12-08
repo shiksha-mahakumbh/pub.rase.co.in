@@ -43,63 +43,7 @@ const Filter: React.FC = () => {
       issue: "Issue 1",
       readArticle: "/vie.rase/ArticleDetail/2"
     },
-    {
-      title: "Use of Hindi and regional languages in technical education",
-      author: "Dr. Seema Goyal",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p3",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
-    {
-      title: "A Conceptual Model: Happiness for Kids in Schools",
-      author: "Mrs. Supriya",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p4",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
-    {
-      title: "Review of Hydro Electric Power Plant and its Classifications",
-      author: "Amit Kansal",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p5",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
     
-  {
-    title:"Evaluation of Executive Functions Skills among Youth Taekwondo Players and Non-Taekwondo Players with the Executive Skills Questionnaire-Revised",
-    author: "Dipshikha Baruah",
-    publishDate: "2023-06-30",
-    page: "/vie/v1i1p6",
-    volume: "Volume 1",
-    issue: "Issue 2",
-    readArticle:"/ArticleDetail/7"
-  },
-  {
-    title:
-      "The Role Of Behavioural Economics On School Education In India: Opportunities And Challenges",
-    author: "Soni Aakash Kumar",
-    publishDate: "2023-06-30",
-    page: "/vie/v1i1p7",
-    volume: "Volume 1",
-    issue: "Issue 2",
-    readArticle:"/ArticleDetail/5"
-  },
-  {
-    title:
-      "Open Educational Resources: An insight into various initiatives at National Level",
-    author: "Dr. Madhu Midha ",
-    publishDate: "2023-06-30",
-    page: "/vie/v1i1p8",
-    volume: "Volume 1",
-    issue: "Issue 2",
-    readArticle:"/ArticleDetail/8"
-  },
   {
     title:
       "Content",
