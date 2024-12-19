@@ -43,63 +43,7 @@ const Filter: React.FC = () => {
       issue: "Issue 1",
       readArticle: "/vie.rase/ArticleDetail/2"
     },
-    {
-      title: "Use of Hindi and regional languages in technical education",
-      author: "Dr. Seema Goyal",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p3",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
-    {
-      title: "A Conceptual Model: Happiness for Kids in Schools",
-      author: "Mrs. Supriya",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p4",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
-    {
-      title: "Review of Hydro Electric Power Plant and its Classifications",
-      author: "Amit Kansal",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p5",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
     
-  {
-    title:"Evaluation of Executive Functions Skills among Youth Taekwondo Players and Non-Taekwondo Players with the Executive Skills Questionnaire-Revised",
-    author: "Dipshikha Baruah",
-    publishDate: "2023-06-30",
-    page: "/vie/v1i1p6",
-    volume: "Volume 1",
-    issue: "Issue 2",
-    readArticle:"/ArticleDetail/7"
-  },
-  {
-    title:
-      "The Role Of Behavioural Economics On School Education In India: Opportunities And Challenges",
-    author: "Soni Aakash Kumar",
-    publishDate: "2023-06-30",
-    page: "/vie/v1i1p7",
-    volume: "Volume 1",
-    issue: "Issue 2",
-    readArticle:"/ArticleDetail/5"
-  },
-  {
-    title:
-      "Open Educational Resources: An insight into various initiatives at National Level",
-    author: "Dr. Madhu Midha ",
-    publishDate: "2023-06-30",
-    page: "/vie/v1i1p8",
-    volume: "Volume 1",
-    issue: "Issue 2",
-    readArticle:"/ArticleDetail/8"
-  },
   {
     title:
       "Content",
@@ -183,7 +127,7 @@ const Filter: React.FC = () => {
     readArticle:""
   },
   {
-    title: "Conent",
+    title: "Content",
     author: "",
     publishDate: "2023-12-31", // Please provide the actual publish date
     page: "/vie/cv1i3", // Please provide the actual page number
@@ -191,24 +135,7 @@ const Filter: React.FC = () => {
     issue: "Issue 4",
     readArticle:""
   },
-  {
-    title: "Moral Values and Ethics in School Education - A Practical Approach",
-    author: "Piyush Punj ",
-    publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p1", // Please provide the actual page number
-    volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },
-  {
-    title: "Health and Wellness Interlaced in The Bhagavad Gita",
-    author: "Ranjana",
-    publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p2", // Please provide the actual page number
-    volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },  {
+   {
     title: "Induction of Startup Culture on School Level ",
     author: "Divyanshu",
     publishDate: "2023-12-31", // Please provide the actual publish date
@@ -247,25 +174,6 @@ const Filter: React.FC = () => {
     publishDate: "2023-12-31", // Please provide the actual publish date
     page: "/vie/v1i3p7", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },
-  {
-    title: "Augmenting Techno-Pedagogical Competencies of Pre-Service Trainees for Designing E-Content through Collaborative Training Model",
-    author: "Ms. Seema Rani Thappa    ",
-    publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p8W", // Please provide the actual page number
-    volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
-  },
-  
-  {
-    title: "Conent",
-    author: "",
-    publishDate: "2023-03-31", // Please provide the actual publish date
-    page: "/vie/cv2i1", // Please provide the actual page number
-    volume: "Volume 2",
     issue: "Issue 4",
     readArticle:""
   },
