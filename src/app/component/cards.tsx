@@ -113,7 +113,7 @@ const HomePage: React.FC = () => {
                   <option value="/b/rase20231.pdf">Recent Advances in School Education</option>
                   <option value="/b/rase20232.pdf">Role of Academic-Driven Startups in Developing Economy </option>
                   
-                  <option value="/Shiksha Mahakumbh 2.0 Abstract booklet final.pdf">Indian Education for Global Welfare </option>
+                  <option value="/b/Shiksha Mahakumbh 2.0 Abstract booklet final.pdf">Indian Education for Global Welfare </option>
                 </select>
                 <button className="w-full p-2 bg-orange-400 text-white rounded-lg shadow-md hover:bg-orange-600 mt-2" onClick={handleBookSearchClick}>
                   Search Books
