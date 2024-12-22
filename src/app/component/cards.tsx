@@ -102,7 +102,7 @@ const HomePage: React.FC = () => {
               </div>
 
               <div className="flex-1 min-w-[200px]">
-                <h3 className="text-lg font-semibold text-gray-800 text-center mb-2">Find Books</h3>
+                <h3 className="text-lg font-semibold text-gray-800 text-center mb-2">Find Books/Proceedings</h3>
                 <select
                   className="w-full p-2 border border-gray-300 rounded-lg shadow-sm"
                   onChange={handleBookSelectChange}
