@@ -108,12 +108,12 @@ const HomePage: React.FC = () => {
                   onChange={handleBookSelectChange}
                 >
                   <option value="" disabled selected>
-                    Search for books
+                    Search for books/proceedings
                   </option>
-                  <option value="/b/rase20231.pdf">Recent Advances in School Education</option>
-                  <option value="/b/rase20232.pdf">Role of Academic-Driven Startups in Developing Economy </option>
+                  <option value="/b/rase20231.pdf">Proceeding-Recent Advances in School Education</option>
+                  <option value="/b/rase20232.pdf">Prceeding-Role of Academic-Driven Startups in Developing Economy </option>
                   
-                  <option value="/b/Shiksha Mahakumbh 2.0 Abstract booklet final.pdf">Indian Education for Global Welfare </option>
+                  <option value="/b/Shiksha Mahakumbh 2.0 Abstract booklet final.pdf">Proceeding-Indian Education for Global Welfare </option>
                 </select>
                 <button className="w-full p-2 bg-orange-400 text-white rounded-lg shadow-md hover:bg-orange-600 mt-2" onClick={handleBookSearchClick}>
                   Search Books
@@ -123,7 +123,7 @@ const HomePage: React.FC = () => {
           </section>
 
           <section className="mt-8 mb-8">
-            <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">Explore STEM , Social Science, etc., in DHE Publications</h2>
+            <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">Explore STEM, Social Science, etc., in DHE Publications</h2>
             <ul className="mt-4 text-gray-600 flex flex-wrap justify-center space-x-6 space-y-0">
               <li className="hover:underline hover:text-orange-600 transition duration-300 cursor-pointer">Physical Sciences and Engineering</li>
               <li className="hover:underline hover:text-orange-600 transition duration-300 cursor-pointer">Life Sciences</li>
