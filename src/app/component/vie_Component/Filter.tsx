@@ -50,7 +50,7 @@ const Filter: React.FC = () => {
       author: "",
       publishDate: "2024-06-30",
       page: "ci1",
-      volume: "Volume 1",
+      volume: "Volume 2",
       issue: "Issue 1",
       readArticle:""
     },
@@ -60,7 +60,7 @@ const Filter: React.FC = () => {
     author: "Tanuja Srivastava",
     publishDate: "2024-06-30",
     page: "v1i1p1",
-    volume: "Volume 1",
+    volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""
   },
@@ -69,7 +69,7 @@ const Filter: React.FC = () => {
     author: "Deepika Bahri",
     publishDate: "2024-06-30",
     page: "v1i1p2",
-    volume: "Volume 1",
+    volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""
   },
@@ -78,7 +78,7 @@ const Filter: React.FC = () => {
     author: "Dr. Seema Goyal",
     publishDate: "2024-06-30",
     page: "v1i1p3",
-    volume: "Volume 1",
+    volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""
   },
@@ -87,7 +87,7 @@ const Filter: React.FC = () => {
     author: "Mrs. Supriya",
     publishDate: "2024-06-30",
     page: "v1i1p4",
-    volume: "Volume 1",
+    volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""
   },
@@ -96,7 +96,7 @@ const Filter: React.FC = () => {
     author: "Amit Kansal",
     publishDate: "2024-06-30",
     page: "v1i1p5",
-    volume: "Volume 1",
+    volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""
   },
@@ -105,7 +105,7 @@ const Filter: React.FC = () => {
     author: "Dipshikha Baruah",
     publishDate: "2023-06-30",
     page: "v1i1p6",
-    volume: "Volume 1",
+    volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""
   },
