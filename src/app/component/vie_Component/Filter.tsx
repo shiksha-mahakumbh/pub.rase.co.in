@@ -16,165 +16,285 @@ type Article = {
 const Filter: React.FC = () => {
   // Define the allArticles array directly in this component (remove the duplicate code)
   const allArticles: Article[] = [
+    // {
+    //   title: "Content",
+    //   author: "",
+    //   publishDate: "2024-06-30",
+    //   page: "/vie/ci1",
+    //   volume: "Volume 2",
+    //   issue: "Issue 1",
+    //   readArticle: ""
+    // },
+    // {
+    //   title: "Development of Biodegradable Molded Sheets of Deoiled Rice Bran (DRB) Through Extrusion Technique",
+    //   author: "Tanuja Srivastava",
+    //   publishDate: "2024-06-30",
+    //   page: "/vie/v1i1p1",
+    //   volume: "Volume 2",
+    //   issue: "Issue 1",
+    //   readArticle: ""
+    // },
+    // {
+    //   title: "Role of Modern Technologies in Future Dimensions of Teaching",
+    //   author: "Deepika Bahri",
+    //   publishDate: "2024-06-30",
+    //   page: "/vie/v1i1p2",
+    //   volume: "Volume 2",
+    //   issue: "Issue 1",
+    //   readArticle: "/vie.rase/ArticleDetail/2"
+    // },
+    
     {
-      title: "Content",
+      title:
+        "Content",
       author: "",
       publishDate: "2024-06-30",
-      page: "/vie/ci1",
+      page: "ci1",
       volume: "Volume 1",
       issue: "Issue 1",
-      readArticle: ""
+      readArticle:""
     },
     {
-      title: "Development of Biodegradable Molded Sheets of Deoiled Rice Bran (DRB) Through Extrusion Technique",
-      author: "Tanuja Srivastava",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p1",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: ""
-    },
-    {
-      title: "Role of Modern Technologies in Future Dimensions of Teaching",
-      author: "Deepika Bahri",
-      publishDate: "2024-06-30",
-      page: "/vie/v1i1p2",
-      volume: "Volume 1",
-      issue: "Issue 1",
-      readArticle: "/vie.rase/ArticleDetail/2"
-    },
-    
+    title:
+      "Development of Biodegradable Molded Sheets of Deoiled Rice Bran (DRB) Through Extrusion Technique",
+    author: "Tanuja Srivastava",
+    publishDate: "2024-06-30",
+    page: "v1i1p1",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title: "Role of Modern Technologies in Future Dimensions of Teaching",
+    author: "Deepika Bahri",
+    publishDate: "2024-06-30",
+    page: "v1i1p2",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title: "Use of Hindi and regional languages in technical education",
+    author: "Dr. Seema Goyal",
+    publishDate: "2024-06-30",
+    page: "v1i1p3",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title: "A Conceptual Model: Happiness for Kids in Schools",
+    author: "Mrs. Supriya",
+    publishDate: "2024-06-30",
+    page: "v1i1p4",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title: "Review of Hydro Electric Power Plant and its Classifications",
+    author: "Amit Kansal",
+    publishDate: "2024-06-30",
+    page: "v1i1p5",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title:"Evaluation of Executive Functions Skills among Youth Taekwondo Players and Non-Taekwondo Players with the Executive Skills Questionnaire-Revised",
+    author: "Dipshikha Baruah",
+    publishDate: "2023-06-30",
+    page: "v1i1p6",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title:
+      "The Role Of Behavioural Economics On School Education In India: Opportunities And Challenges",
+    author: "Soni Aakash Kumar",
+    publishDate: "2023-06-30",
+    page: "v1i1p7",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title:
+      "Open Educational Resources: An insight into various initiatives at National Level",
+    author: "Dr. Madhu Midha ",
+    publishDate: "2023-06-30",
+    page: "v1i1p8",
+    volume: "Volume 1",
+    issue: "Issue 1",
+    readArticle:""
+  },
   {
     title:
       "Content",
     author: "",
     publishDate: "2023-09-30",
-    page: "/vie/ci2",
+    page: "ci2",
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "English-The Most Emphasized Emerging Trend in Global Education System",
     author: "Priya Sharma",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p1", // Please provide the actual page number
+    page: "v1i2p1", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "An Academic Value-Added Mathematical Model in Education Sciences",
     author: "Pramod N Belkhode",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p2", // Please provide the actual page number
+    page: "v1i2p2", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "Impact of COVID-19 on the Education System: A Comprehensive Analysis",
     author: "Dr. Sunita",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p3", // Please provide the actual page number
+    page: "v1i2p3", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
-    readArticle:""
+    issue: "Issue 2",
+    readArticle:"/Paper4"
   },
   {
     title: "The Impact of Digital Marketing on Businesses",
     author: "Htet Ne Oo",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p4", // Please provide the actual page number
+    page: "v1i2p4", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "Spectrum of Life- A Critical Review",
     author: "Samriti Khosla",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p5", // Please provide the actual page number
+    page: "v1i2p5", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "Developing Reading Competence at the Preparatory Stage",
     author: "Rosy Jain",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p6", // Please provide the actual page number
+    page: "v1i2p6", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "Visual Interaction Technique in Human Computer Interaction and its Usability in Virtual Keyboard",
     author: "Heena Wadhwal",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p7", // Please provide the actual page number
+    page: "v1i2p7", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 3",
+    issue: "Issue 2",
     readArticle:""
   },
   {
     title: "The Impact of Happiness Curriculum on the Mental Health and Emotional Wellbeing of Government School Children of Delhi",
     author: "Tannu Ajmani",
     publishDate: "2023-09-30", // Please provide the actual publish date
-    page: "/vie/v1i2p8", // Please provide the actual page number
+    page: "v1i2p8", // Please provide the actual page number
+    volume: "Volume 1",
+    issue: "Issue 2",
+    readArticle:""
+  },
+  {
+    title: "Conent",
+    author: "",
+    publishDate: "2023-12-31", // Please provide the actual publish date
+    page: "cv1i3", // Please provide the actual page number
     volume: "Volume 1",
     issue: "Issue 3",
     readArticle:""
   },
   {
-    title: "Content",
-    author: "",
+    title: "Moral Values and Ethics in School Education - A Practical Approach",
+    author: "Piyush Punj ",
     publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/cv1i3", // Please provide the actual page number
+    page: "v1i3p1", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
+    issue: "Issue 3",
     readArticle:""
   },
-   {
+  {
+    title: "Health and Wellness Interlaced in The Bhagavad Gita",
+    author: "Ranjana",
+    publishDate: "2023-12-31", // Please provide the actual publish date
+    page: "v1i3p2", // Please provide the actual page number
+    volume: "Volume 1",
+    issue: "Issue 3",
+    readArticle:""
+  },  {
     title: "Induction of Startup Culture on School Level ",
     author: "Divyanshu",
     publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p3", // Please provide the actual page number
+    page: "v1i3p3", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
-    readArticle:""
+    issue: "Issue 3",
+    readArticle:"/Paper4"
   },  {
     title: "Exploring the Potential of IoST for Smart City Development  ",
     author: "Shreya",
     publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p4", // Please provide the actual page number
+    page: "v1i3p4", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
+    issue: "Issue 3",
     readArticle:""
   },  {
     title: "Sustainable Development: Financial development a curse or boon for environment: With Special reference to CO2 emission",
     author: "Monika Rani & Dr. Sapna",
     publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p5", // Please provide the actual page number
+    page: "v1i3p5", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
+    issue: "Issue 3",
     readArticle:""
   },    {
     title: "Positive Impact of Psychoneurobics Techniques in Inculcating Health & Wellness",
     author: "Dr. Disha Khanna",
     publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p6", // Please provide the actual page number
+    page: "v1i3p6", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
+    issue: "Issue 3",
     readArticle:""
   },
   {
     title: "A study on Indian Mathematicians and their Contributions in the Development of Mathematics ",
     author: "Gaurav Varshney",
     publishDate: "2023-12-31", // Please provide the actual publish date
-    page: "/vie/v1i3p7", // Please provide the actual page number
+    page: "v1i3p7", // Please provide the actual page number
     volume: "Volume 1",
-    issue: "Issue 4",
+    issue: "Issue 3",
+    readArticle:""
+  },
+  {
+    title: "Augmenting Techno-Pedagogical Competencies of Pre-Service Trainees for Designing E-Content through Collaborative Training Model",
+    author: "Ms. Seema Rani Thappa    ",
+    publishDate: "2023-12-31", // Please provide the actual publish date
+    page: "v1i3p8W", // Please provide the actual page number
+    volume: "Volume 1",
+    issue: "Issue 3",
+    readArticle:""
+  },
+  {
+    title: "Conent",
+    author: "",
+    publishDate: "2023-03-31", // Please provide the actual publish date
+    page: "cv2i1", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 1",
     readArticle:""
   },
  
@@ -182,61 +302,70 @@ const Filter: React.FC = () => {
     title: "Load Frequency Control for Two-Area Deregulated Power System",
     author: "Anupma Gupta",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p1",
+    page: "v2i1p1",
     volume: "Volume 2",
-    issue: "Issue 2",
+    issue: "Issue 1",
     readArticle:""
   },
   {
     title: "Attitude of Pre-Service Teachers of B.Ed.: Regarding Digital Literacy in The Teacher Education Programme in Nep2020",
     author: "Prof. Babita Bhardwaj & Dr. Poonam Gaur",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p2",
+    page: "v2i1p2",
     volume: "Volume 2",
-    issue: "Issue 2",
+    issue: "Issue 1",
     readArticle:""
   },
   {
     title: "Study onward clustering strategy along with Assorted K-mean Technique",
     author: "Pardeep Singh Tiwana",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p3",
+    page: "v2i1p3",
     volume: "Volume 2",
-    issue: "Issue 2",
+    issue: "Issue 1",
     readArticle:""
   },
   {
     title: "Bhartiya Gurukul System as a Pedagogical Model in the Context of NEP 2020",
     author: "P. Lavanya",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p4",
+    page: "v2i1p4",
     volume: "Volume 2",
-    issue: "Issue 2",
+    issue: "Issue 1",
     readArticle:""
   },
   {
     title: "Scenario in Private Schools and Government Schools regarding Skill Development under NEP 2020",
     author: "Meenal Raman",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p5",
+    page: "v2i1p5",
     volume: "Volume 2",
-    issue: "Issue 2",
+    issue: "Issue 1",
     readArticle:""
   },
   {
     title: "Social Media's Impression on Interpersonal Communication in People",
     author: "Heena Wadhwa",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p6",
+    page: "v2i1p6",
     volume: "Volume 2",
-    issue: "Issue 2",
+    issue: "Issue 1",
     readArticle:""
   },
   {
     title: "Unlocking the Learning Power of Play: Exploring Learners' Preferences for Game Mechanics and Dynamics in Math Education",
     author: "Purvi B. Arora",
     publishDate: "2024-03-31",
-    page: "/vie/v2i1p7",
+    page: "v2i1p7",
+    volume: "Volume 2",
+    issue: "Issue 1",
+    readArticle:""
+  },
+  {
+    title: "",
+    author: "",
+    publishDate: "", // Please provide the actual publish date
+    page: "", // Please provide the actual page number
     volume: "Volume 2",
     issue: "Issue 2",
     readArticle:""
