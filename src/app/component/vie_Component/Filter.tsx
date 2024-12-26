@@ -55,7 +55,7 @@ const Filter: React.FC = () => {
     author: "Mrs. Supriya",
     publishDate: "2023-06-30",
     page: "/vie/v1i1p4",
-    volume: "/vie/Volume 1",
+    volume: "Volume 1",
     issue: "Issue 1",
     readArticle:""},
   {
@@ -288,7 +288,7 @@ const Filter: React.FC = () => {
     title: "Social Media's Impression on Interpersonal Communication in People",
     author: "Heena Wadhwa",
     publishDate: "2024-03-31",
-    page: "v2i1p6",
+    page: "/vie/v2i1p6",
     volume: "Volume 2",
     issue: "Issue 1",
     readArticle:""},
