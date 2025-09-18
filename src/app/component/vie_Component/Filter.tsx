@@ -333,7 +333,7 @@ const Filter: React.FC = () => {
     title: "Role of School-Based Nutrition Education in Empowering Healthier Communities",
     author: "Ritu Pradhan",
     publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "cviev3i1", // Please provide the actual page number
+    page: "/vie/cviev3i1", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 1",
     readArticle:""},
