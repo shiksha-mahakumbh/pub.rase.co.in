@@ -386,14 +386,63 @@ const Filter: React.FC = () => {
     issue: "Issue 1",
     readArticle:""},
  
-  {
-    title: "",
+{
+    title: "Content",
     author: "",
-    publishDate: "", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Content Volume 3 Issue 2", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
-    readArticle:""},  
+    readArticle:""},
+  {
+    title: "A Blockchain Based Framework for Transforming Teachers Evaluation and Certification",
+    author: "Komal Rani Tehlan",
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 47", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""},
+  {
+    title: "Advancing Indian Sign Language Translation: A Comprehensive System for Punjabi Text Using Synthetic Animations",
+    author: "Gurdeep Singh",
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 48", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""},
+ {
+    title: "Restructuring and Reskilling the Educational Curriculum adapting Pedagogical Approaches promoting Lifelong Learning: A Study of Teacher Education Institution",
+    author: "Anu Verma Puri",
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 49", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""},
+  {
+    title: "Teaching in Regional Languages: A Boon for Students",
+    author: "Priyanka Prajapati",
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 50", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""},
+  {
+    title: "The Impact of Micronutrient Deficiency on Cognitive Development and Scholastic Performance",
+    author: "Ritu Pradhan",
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 51", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""},
+  {
+    title: "Mathematics Education: A Catalyst for Global Progress and Development",
+    author: "Sarita Pippal",
+    publishDate: "June 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 52", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""},
+    
   // {
   //   title: "",
   //   author: "",
