@@ -347,7 +347,7 @@ const Filter: React.FC = () => {
     readArticle:""},
   {
     title: "Professional Commitment of School Teachers in Relation to their Emotional Intelligence: A Study on the Teachers of Himachal",
-    author: "Jyotika Guleria1",
+    author: "Jyotika Guleria",
     publishDate: "March 31, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 1 Article 42", // Please provide the actual page number
     volume: "Volume 3",
@@ -389,7 +389,7 @@ const Filter: React.FC = () => {
 {
     title: "Content",
     author: "",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Content Volume 3 Issue 2", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
@@ -397,7 +397,7 @@ const Filter: React.FC = () => {
   {
     title: "A Blockchain Based Framework for Transforming Teachers Evaluation and Certification",
     author: "Komal Rani Tehlan",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 2 Article 47", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
@@ -405,7 +405,7 @@ const Filter: React.FC = () => {
   {
     title: "Advancing Indian Sign Language Translation: A Comprehensive System for Punjabi Text Using Synthetic Animations",
     author: "Gurdeep Singh",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 2 Article 48", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
@@ -413,7 +413,7 @@ const Filter: React.FC = () => {
  {
     title: "Restructuring and Reskilling the Educational Curriculum adapting Pedagogical Approaches promoting Lifelong Learning: A Study of Teacher Education Institution",
     author: "Anu Verma Puri",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 2 Article 49", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
@@ -421,7 +421,7 @@ const Filter: React.FC = () => {
   {
     title: "Teaching in Regional Languages: A Boon for Students",
     author: "Priyanka Prajapati",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 2 Article 50", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
@@ -429,7 +429,7 @@ const Filter: React.FC = () => {
   {
     title: "The Impact of Micronutrient Deficiency on Cognitive Development and Scholastic Performance",
     author: "Ritu Pradhan",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 2 Article 51", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
@@ -437,7 +437,7 @@ const Filter: React.FC = () => {
   {
     title: "Mathematics Education: A Catalyst for Global Progress and Development",
     author: "Sarita Pippal",
-    publishDate: "June 31, 2025", // Please provide the actual publish date
+    publishDate: "June 30, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 2 Article 52", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
