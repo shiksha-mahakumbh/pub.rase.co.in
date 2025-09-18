@@ -25,7 +25,7 @@ const AboutUs = () => {
               <Image src="/logo.png" alt="Logo" width={100} height={100} className="object-contain" />
             </div>
             <div className="flex-1 ml-28">
-              <div className="text-2xl font-bold text-orange-600">DHE Publications</div>
+              <div className="text-2xl font-bold text-orange-600">DHE Ramendra</div>
             </div>
             <nav className="flex-1">
               <div className="relative">
