@@ -304,36 +304,111 @@ const Filter: React.FC = () => {
     volume: "Volume 2",
     issue: "Issue 1",
     readArticle:"" },
+    
   {
-    title: "",
+    title: "Content",
     author: "",
-    publishDate: "", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    publishDate: "June 30,2024", // Please provide the actual publish date
+    page: "/vie/Content Volume 2 Issue 2", // Please provide the actual page number
     volume: "Volume 2",
     issue: "Issue 2",
-    readArticle:""},  {
-    title: "",
+    readArticle:""}, 
+  {
+    title: "The Maneka Metamorphosis: Bridging Text and Time in Constitutional Interpretation",
+    author: "Kritika Joshi",
+    publishDate: "June 30,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 2 Article 34", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 2",
+    readArticle:""},
+  {
+    title: "A Comparative Analysis of Social Security Legislation for the Unorganized Labor Sector in India and the USA",
+    author: "Bhavika",
+    publishDate: "June 30,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 2 Article 35", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 2",
+    readArticle:""},
+  {
+    title: "Investigating the Role of Law as an Instrument of Social Order",
     author: "",
-    publishDate: "", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    publishDate: "June 30,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 2 Article 36", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 2",
+    readArticle:"Arunika Paul Nandi"},
+  
+  {
+    title: "Content",
+    author: "",
+    publishDate: "September 30,2024", // Please provide the actual publish date
+    page: "/vie/Content Volume 2 Issue 3", // Please provide the actual page number
     volume: "Volume 2",
     issue: "Issue 3",
     readArticle:""},
   {
-    title: "",
+    title: "Arms, Ancestry, and Autonomy: The Legal and Cultural Saga of Kodava Gun Rights",
+    author: "Srivatsa Naik",
+    publishDate: "September 30,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 3 Article 37", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 3",
+    readArticle:""},
+  {
+    title: "Laws on Social Media Challenges in their implementation and way forward",
+    author: "Alisha Arora",
+    publishDate: "September 30,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 3 Article 37", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 3",
+    readArticle:""},
+  {
+    title: "Secularism is the Essence of Constitution of India: An Analysis in the Light of Basic Structure Doctrine",
+    author: "Ayesha Nezami",
+    publishDate: "September 30,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 3 Article 37", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 3",
+    readArticle:""},
+    
+  {
+    title: "Content",
     author: "",
-    publishDate: "", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    publishDate: "December 31,2024", // Please provide the actual publish date
+    page: "/vie/Content Volume 2 Issue 4", // Please provide the actual page number
     volume: "Volume 2",
     issue: "Issue 4",
     readArticle:""},
-
+{
+    title: "Carbon Dots as Emerging Nanomaterials: A Sustainable Alternative to Quantum Dots",
+    author: "Srijan Pushkarna",
+    publishDate: "December 31,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 4 Article 38", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 4",
+    readArticle:""},
+  {
+    title: "Antijamming Signal Detection Using Convolutional Neural Networks in Wireless Communications",
+    author: "Anjali Sharma",
+    publishDate: "December 31,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 4 Article 39", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 4",
+    readArticle:""},
+  {
+    title: "Custom as a Source of Law with Special Reference to the Customs Prevailing in the State of Bihar",
+    author: "Aryaman Sinha",
+    publishDate: "December 31,2024", // Please provide the actual publish date
+    page: "/vie/Volume 2 Issue 4 Article 40", // Please provide the actual page number
+    volume: "Volume 2",
+    issue: "Issue 4",
+    readArticle:""},
     // -------Volume 3 Started Here-----
   {
     title: "Content",
     author: "",
     publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "/vie/Content Volume 3 Issue 1", // Please provide the actual page number
+    page: "/vie/Content Volume 3 Issue 1 2025", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 1",
     readArticle:""},
@@ -390,7 +465,7 @@ const Filter: React.FC = () => {
     title: "Content",
     author: "",
     publishDate: "June 30, 2025", // Please provide the actual publish date
-    page: "/vie/Content Volume 3 Issue 2", // Please provide the actual page number
+    page: "/vie/Content Volume 3 Issue 2 2025", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
     readArticle:""},
