@@ -330,18 +330,10 @@ const Filter: React.FC = () => {
 
     // -------Volume 3 Started Here-----
   {
-    title: "Role of School-Based Nutrition Education in Empowering Healthier Communities",
-    author: "Ritu Pradhan",
+    title: "Content",
+    author: "",
     publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "/vie/cviev3i1", // Please provide the actual page number
-    volume: "Volume 3",
-    issue: "Issue 1",
-    readArticle:""},
-  {
-    title: "Cultivating Global Mindsets: Entrepreneurial Education for Career Success",
-    author: "Heena",
-    publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    page: "/vie/Content Volume 3 Issue 1", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 1",
     readArticle:""},
@@ -349,23 +341,7 @@ const Filter: React.FC = () => {
     title: "Study of Factors Affecting Customers’ Investment Decision in Term Insurance Plans",
     author: "Tanuja Srivastava",
     publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
-    volume: "Volume 3",
-    issue: "Issue 1",
-    readArticle:""},
-  {
-    title: "Emotional Quotient in Students: A Need of the Hour or Not",
-    author: "Upagya Sharma",
-    publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
-    volume: "Volume 3",
-    issue: "Issue 1",
-    readArticle:""},
-  {
-    title: "Empowering India's Economy: The Pharmacy Sector's Remarkable Growth Story Post-Pandemic",
-    author: "Priti Rai",
-    publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    page: "/vie/Volume 3 Issue 1 Article 41", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 1",
     readArticle:""},
@@ -373,10 +349,43 @@ const Filter: React.FC = () => {
     title: "Professional Commitment of School Teachers in Relation to their Emotional Intelligence: A Study on the Teachers of Himachal",
     author: "Jyotika Guleria1",
     publishDate: "March 31, 2025", // Please provide the actual publish date
-    page: "", // Please provide the actual page number
+    page: "/vie/Volume 3 Issue 1 Article 42", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 1",
     readArticle:""},
+  {
+    title: "Cultivating Global Mindsets: Entrepreneurial Education for Career Success",
+    author: "Heena",
+    publishDate: "March 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 1 Article 43", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 1",
+    readArticle:""},
+  {
+    title: "Role of School-Based Nutrition Education in Empowering Healthier Communities",
+    author: "Ritu Pradhan",
+    publishDate: "March 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 1 Article 44", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 1",
+    readArticle:""},
+  {
+    title: "Empowering India's Economy: The Pharmacy Sector's Remarkable Growth Story Post-Pandemic",
+    author: "Priti Rai",
+    publishDate: "March 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 1 Article 45", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 1",
+    readArticle:""},
+  {
+    title: "Emotional Quotient in Students: A Need of the Hour or Not",
+    author: "Upagya Sharma",
+    publishDate: "March 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 1 Article 46", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 1",
+    readArticle:""},
+ 
   {
     title: "",
     author: "",
