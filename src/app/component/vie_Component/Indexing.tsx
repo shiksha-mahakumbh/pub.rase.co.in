@@ -1,12 +1,7 @@
-components/HTMLComponent.js
 "use client";
-import { useEffect, useState } from "react";
-import React from "react";
 
 const Indexing = () => {
-  const [htmlContent, setHtmlContent] = useState("");
-
-  const databases = [
+  const databases: string[] = [
     "Academic OneFile",
     "Academic Search Alumni Edition",
     "Academic Search Complete",
@@ -63,13 +58,14 @@ const Indexing = () => {
   return (
     <div className="p-4">
       <h1 className="text-black text-xl font-semibold py-2">
-        Abstracting/Indexing
+        Abstracting / Indexing
       </h1>
-      <ul className="list-disc list-inside">
+
+      <ul className="list-disc list-inside space-y-1">
         {databases.map((database, index) => (
           <li
             key={index}
-            className="relative before:content-['\2192'] before:text-xl before:text-black before:mr-2 text-black"
+            className="text-black before:content-['→'] before:mr-2"
           >
             {database}
           </li>
