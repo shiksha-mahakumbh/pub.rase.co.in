@@ -517,34 +517,41 @@ const Filter: React.FC = () => {
     volume: "Volume 3",
     issue: "Issue 2",
     readArticle:""},
-
   {
-    title: "Mathematics Education: A Catalyst for Global Progress and Development",
-    author: "Sarita Pippal",
+    title: "Content",
+    author: "",
+    publishDate: "December 31, 2025", // Please provide the actual publish date
+    page: "/vie/Content Volume 3 Issue 4 2025", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 4",
+    readArticle:""},
+  {
+    title: "Indigenous Metallurgical Wisdom of Ancient India: A Blueprint for Sustainable Industrial Practices",
+    author: "Gaurav Sharma",
     publishDate: "December 31, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 4 Article 57", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 4",
     readArticle:""},
   {
-    title: "Mathematics Education: A Catalyst for Global Progress and Development",
-    author: "Sarita Pippal",
+    title: "The Digital Promise, The Family Barrier: How Technology is Changing (and Not Changing) the Lives of Women in Indian Family Businesses",
+    author: "Sanjeev Kumar Singh",
     publishDate: "December 31, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 4 Article 58", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 4",
     readArticle:""},
   {
-    title: "Mathematics Education: A Catalyst for Global Progress and Development",
-    author: "Sarita Pippal",
+    title: "Assessing The Impact of Skill Development Programs on Employment Outcomes in the Field of Plastics Technology: A Longitudinal Study",
+    author: "Amit Chawla",
     publishDate: "December 31, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 4 Article 59", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 4",
     readArticle:""},
   {
-    title: "Mathematics Education: A Catalyst for Global Progress and Development",
-    author: "Sarita Pippal",
+    title: "The Legacy of Indian Knowledge System in Wireless Communication: Contributions of Sir Jagdish Chandra Bose",
+    author: "Shalu",
     publishDate: "December 31, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 4 Article 60", // Please provide the actual page number
     volume: "Volume 3",
