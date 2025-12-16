@@ -509,11 +509,20 @@ const Filter: React.FC = () => {
     volume: "Volume 3",
     issue: "Issue 2",
     readArticle:""},
-  {
+ 
+{
+    title: "Fabrication of Carbon Dots-Based Hydrogen Sulfide Gas Sensor",
+    author: "Srijan Pushkarna",
+    publishDate: "June 30, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 2 Article 52", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 2",
+    readArticle:""}, 
+    {
     title: "Mathematics Education: A Catalyst for Global Progress and Development",
     author: "Sarita Pippal",
     publishDate: "June 30, 2025", // Please provide the actual publish date
-    page: "/vie/Volume 3 Issue 2 Article 52", // Please provide the actual page number
+    page: "/vie/Volume 3 Issue 2 Article 53", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 2",
     readArticle:""},
