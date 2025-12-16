@@ -517,6 +517,39 @@ const Filter: React.FC = () => {
     volume: "Volume 3",
     issue: "Issue 2",
     readArticle:""},
+
+  {
+    title: "Mathematics Education: A Catalyst for Global Progress and Development",
+    author: "Sarita Pippal",
+    publishDate: "December 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 4 Article 57", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 4",
+    readArticle:""},
+  {
+    title: "Mathematics Education: A Catalyst for Global Progress and Development",
+    author: "Sarita Pippal",
+    publishDate: "December 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 4 Article 58", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 4",
+    readArticle:""},
+  {
+    title: "Mathematics Education: A Catalyst for Global Progress and Development",
+    author: "Sarita Pippal",
+    publishDate: "December 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 4 Article 59", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 4",
+    readArticle:""},
+  {
+    title: "Mathematics Education: A Catalyst for Global Progress and Development",
+    author: "Sarita Pippal",
+    publishDate: "December 31, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 4 Article 60", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 4",
+    readArticle:""},
     
   // {
   //   title: "",
