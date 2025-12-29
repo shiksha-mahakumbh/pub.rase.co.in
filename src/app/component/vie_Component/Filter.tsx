@@ -526,6 +526,30 @@ const Filter: React.FC = () => {
     volume: "Volume 3",
     issue: "Issue 2",
     readArticle:""},
+{
+    title: "Content",
+    author: "",
+    publishDate: "September 30, 2025", // Please provide the actual publish date
+    page: "/vie/Content Volume 3 Issue 3 2025", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 3",
+    readArticle:""},
+  {
+    title: "The Digital Promise, The Family Barrier: How Technology is Changing (and Not Changing) the Lives of Women in Indian Family Businesses",
+    author: "Sanjeev Kumar Garg",
+    publishDate: "September 30, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 3 Article 54", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 3",
+    readArticle:""}, 
+    {
+    title: "Machine Translation of English News to Indian Sign Language (ISL) for Indian Deaf Community",
+    author: "Annu Rani",
+    publishDate: "September 30, 2025", // Please provide the actual publish date
+    page: "/vie/Volume 3 Issue 3 Article 55", // Please provide the actual page number
+    volume: "Volume 3",
+    issue: "Issue 3",
+    readArticle:""}, 
   {
     title: "Content",
     author: "",
