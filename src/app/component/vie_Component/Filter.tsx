@@ -543,8 +543,8 @@ const Filter: React.FC = () => {
     issue: "Issue 4",
     readArticle:""},
   {
-    title: "The Digital Promise, The Family Barrier: How Technology is Changing (and Not Changing) the Lives of Women in Indian Family Businesses",
-    author: "Sanjeev Kumar Singh",
+    title: "Fabrication of Carbon Dots-Based Hydrogen Sulfide Gas Sensor",
+    author: "Shivani Dhall",
     publishDate: "December 31, 2025", // Please provide the actual publish date
     page: "/vie/Volume 3 Issue 4 Article 58", // Please provide the actual page number
     volume: "Volume 3",
