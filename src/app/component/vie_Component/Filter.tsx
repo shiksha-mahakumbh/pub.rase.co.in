@@ -554,7 +554,7 @@ const Filter: React.FC = () => {
     title: "Content",
     author: "",
     publishDate: "December 31, 2025", // Please provide the actual publish date
-    page: "/vie/Content Volume 3 Issue 4 2025", // Please provide the actual page number
+    page: "/vie/Journal Title For Volume 3 Issue 4", // Please provide the actual page number
     volume: "Volume 3",
     issue: "Issue 4",
     readArticle:""},
