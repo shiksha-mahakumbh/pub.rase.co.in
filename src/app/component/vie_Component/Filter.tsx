@@ -624,15 +624,6 @@ const Filter: React.FC = () => {
     title: "Design of Bus Stands Machine Translation System to Indian Sign Laungage for Deaf",
     author: "Rakesh K. Attar",
     publishDate: "2026-03-31", // Please provide the actual publish date
-    page: "/vie/Volume 4 Issue 1 Article 62", // Please provide the actual page number
-    volume: "Volume 4",
-    issue: "Issue 1",
-    readArticle:""},
-
-    {
-    title: "",
-    author: "",
-    publishDate: "2026-03-31", // Please provide the actual publish date
     page: "/vie/Volume 4 Issue 1 Article 63", // Please provide the actual page number
     volume: "Volume 4",
     issue: "Issue 1",
